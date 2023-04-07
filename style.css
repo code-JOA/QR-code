@@ -71,6 +71,7 @@ body{
     border: 1px solid #d1d1d1;
 
 }
+/* # shakes for 10 seconds if error hence linear set to 10 seconds */
 .error{
     animation: shake 0.1s linear 10;
 }
