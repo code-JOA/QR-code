@@ -20,4 +20,10 @@ body{
     border-radius: 10px;
 }
 
-.container p{}
+.container p{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.container
