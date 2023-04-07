@@ -34,7 +34,6 @@ function generateQR(){
         imgBox.classList.add("show-img");
     }else{
         qrText.classList.add('error');
-        // # the above className should be removed after a few seconds if error;
         setTimeout(()=>{
             qrText.classList.remove('error');
         },1000);
