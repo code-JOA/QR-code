@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <p>Enter Amount or URL</p>
-        <input type="text" placeholder="Amount or Text">
+        <input type="text" placeholder="Amount or Text" id="qrText">
 
         <div id="imdBox">
             <img src="" id="qrImage">
@@ -22,7 +22,9 @@
     <script>
 
         let imgBox = document.getElementById("imdBox");
-        let qrImg = document.getElementById("imdBox");
+        let qrImage = document.getElementById("qrImage");
+        let qr = document.getElementById("qr");
+
 
 
         function GenerateQR(){
