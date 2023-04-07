@@ -10,5 +10,9 @@ body{
 }
 
 .container{
-    width:
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50
 }
