@@ -47,4 +47,6 @@ body{
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    margin: 20px;
+    font-weight: 500;
 }
